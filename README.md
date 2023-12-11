@@ -12,7 +12,7 @@ This document provides a brief overview of how to interact with the ChatDOC API 
 You can install the `chatdoc` package using pip:
 
 ```bash
-pip install chatdoc
+pip install --upgrade git+https://github.com/iart-ai/chatdoc.git#egg=chatdoc
 ```
 
 ## Usage
