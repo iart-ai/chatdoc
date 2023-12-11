@@ -5,7 +5,7 @@ description = "ChatDOC API"
 authors = ["OpenAPI Generator Community <team@openapitools.org>", "markyfsun <sunyunfei201@gmail.com>"]
 license = "NoLicense"
 readme = "README.md"
-repository = "https://github.com//"
+repository = "https://github.com/iart-ai/chatdoc"
 keywords = ["OpenAPI", "OpenAPI-Generator", "ChatDOC API"]
 include = ["chatdoc/py.typed"]
 
@@ -14,7 +14,7 @@ python = "^3.7"
 
 urllib3 = ">= 1.25.3"
 python-dateutil = ">=2.8.2"
-pydantic = ">=2"
+pydantic = "<2"
 typing-extensions = ">=4.7.1"
 
 [tool.poetry.dev-dependencies]
